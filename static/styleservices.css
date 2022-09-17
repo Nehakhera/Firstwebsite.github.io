@@ -1,0 +1,17 @@
+.container{
+    background-color: cadetblue;
+    height: 650px;
+    border: 2px solid black;
+}
+h1{
+    text-align: center;
+    color: rgb(133, 8, 133);
+    margin-top: 5px;
+}
+.container ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    font-size: 30px;
+    margin: 38px;
+}

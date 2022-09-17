@@ -1,0 +1,20 @@
+doctype html 
+html 
+  head 
+    title Neha Dance Academy 
+    block scripts 
+    block style 
+  body 
+    nav#navbar 
+      ul 
+        div#logo 
+          img(src="/static/Img/logo.png")
+          | NDA
+        li #[a(href="/") Home] 
+        li #[a(href="/about") About] 
+        li #[a(href="/services") Services] 
+        li #[a(href="/classinfo") Class Info] 
+        li #[a(href="/contact") Contact us]
+    block content 
+    footer#Footersection 
+      | copyright 2022 © NehaDanceAcademy.com | All Rights Reserved

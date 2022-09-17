@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color: black;
+    margin: 0 14px;
+    align-items: center;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-img{
+    height: 100px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+    margin: 12px 12px;
+}
+.card-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#navbar{
+    background-color: violet;
+    padding: 13px 14px;
+    
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+    
+    
+}
+#navbar li a:hover{
+    color: blue;
+}
+#navbar li a{
+    text-decoration: none;
+    padding: 13px 14px;
+    color: black;
+    font-size: 20px;
+}
+#Introsection{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 65px;
+    color: rgb(236, 216, 31);
+    background-color: cadetblue;
+    background:  center / cover no-repeat url(/static/Dance.jpg) ;
+    padding-bottom: 40px;
+
+}
+#Introsection div.small{
+    font-size: 52px;
+    padding: 5px;
+    color: forestgreen;
+}
+#Missionsection{
+    height: 300px;
+    background-color: rgb(48, 48, 230);
+    margin: auto;
+    width: 100%;
+
+}
+#Missionsection h2{
+    text-align: center;
+    padding-top: 15px;
+    font-family: 'Playfair Display', serif;
+    color: tomato;
+    
+
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 15px;
+    height: 209px;
+    background-color: chocolate;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+    font-size: 30px;
+    color: rgba(151, 12, 12, 0.829);
+}
+#Sponsorsection{
+    height: 300px;
+    background-color: rgba(240, 77, 167, 0.849);
+
+}
+#Sponsorsection h2{
+    text-align: center;
+    padding-top: 13px;
+    font-family: 'Playfair Display', serif;
+}
+#sponsor{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+}
+.spimg{
+    height: 80%;
+    margin: 45px;
+
+}
+#Footersection{
+    background-color: black;
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
